@@ -1,0 +1,50 @@
+{
+  "skill_name": "code-cannibalizer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Cannibalize Linear.app and build me a project management tool with Kanban boards and keyboard shortcuts",
+      "expected_output": "Working project management app with Kanban boards and keyboard shortcuts, plus SYNTHESIS_REPORT.md documenting sources",
+      "expectations": [
+        "Has package.json or index.html in output directory",
+        "App can be installed/built without errors (npm install && npm run build)",
+        "Contains SYNTHESIS_REPORT.md documenting sources and decisions",
+        "Security scanning was performed on at least 3 repos",
+        "At least 3 repos were discovered and documented",
+        "Includes Kanban board component or equivalent",
+        "Includes keyboard shortcut functionality"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Find open source alternatives to Notion and build a note-taking app with block-based editing",
+      "expected_output": "Working note-taking app with block-based editing, plus SYNTHESIS_REPORT.md documenting sources",
+      "expectations": [
+        "Has package.json or index.html in output directory",
+        "App can be installed/built without errors (npm install && npm run build)",
+        "Contains SYNTHESIS_REPORT.md documenting sources and decisions",
+        "Security scanning was performed on at least 3 repos",
+        "At least 3 repos were discovered and documented",
+        "Includes block-based editor or rich text editing",
+        "Includes slash commands or formatting toolbar"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I want to build something like Stripe for payments but simpler. What repos can I use?",
+      "expected_output": "Working payment processing API or interface, plus SYNTHESIS_REPORT.md documenting sources",
+      "expectations": [
+        "Has package.json or index.html in output directory",
+        "App can be installed/built without errors (npm install && npm run build)",
+        "Contains SYNTHESIS_REPORT.md documenting sources and decisions",
+        "Security scanning was performed on at least 3 repos",
+        "At least 3 repos were discovered and documented",
+        "Includes payment processing logic or API endpoints",
+        "Includes input validation for payment data"
+      ],
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "project-name",
+  "description": "Synthesized from multiple open-source repos",
+  "structure": {
+    "src": {
+      "components": "UI components (extracted from best sources)",
+      "lib": "Shared utilities and helpers",
+      "types": "Unified type definitions",
+      "api": "API layer (REST/GraphQL)",
+      "hooks": "Custom hooks (React/Vue)",
+      "utils": "Utility functions"
+    },
+    "tests": {
+      "unit": "Unit tests",
+      "integration": "Integration tests",
+      "e2e": "End-to-end tests"
+    },
+    "config": "Configuration files",
+    "docs": "Documentation"
+  },
+  "files": [
+    "package.json",
+    "tsconfig.json",
+    ".env.example",
+    "README.md",
+    "SYNTHESIS_REPORT.md"
+  ],
+  "scripts": {
+    "dev": "Development server",
+    "build": "Production build",
+    "test": "Run tests",
+    "lint": "Run linter",
+    "typecheck": "Type checking"
+  },
+  "template": {
+    "readme": "README explaining architecture and sources",
+    "env": ".env.example with required variables",
+    "config": "Framework-specific config files"
+  }
+}

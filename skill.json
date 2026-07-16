@@ -1,0 +1,32 @@
+{
+  "name": "code-cannibalizer",
+  "displayName": "Code Cannibalizer",
+  "description": "Clone repos super fast, security-scan them, harvest the best patterns, and synthesize a working codebase. Minimum 5 repos, evolves each iteration. Drop a link or describe what you want to build.",
+  "version": "3.1.0",
+  "author": "michiel",
+  "license": "MIT",
+  "platforms": ["opencode"],
+  "keywords": [
+    "code-cannibalizer",
+    "startup-analysis",
+    "repo-discovery",
+    "code-synthesis",
+    "security-scanning",
+    "pattern-analysis",
+    "open-source",
+    "cannibalize",
+    "clone",
+    "harvest",
+    "build-like",
+    "alternatives",
+    "combine-repos",
+    "copy-code",
+    "fast-build"
+  ],
+  "subskills": [
+    "startup-analyst",
+    "security-auditor",
+    "pattern-analyst",
+    "code-simplifier"
+  ]
+}
